@@ -37,13 +37,9 @@ form.addEventListener("submit", e => {
     const name = document.getElementById("nombre").value;
     console.log("El usuario ingresó el nombre: " + name)
     const h1 = document.getElementById("h1");
-    h1.innerHTML = name;
+    h1.innerHTML = "Hola " + name;
 })
 
 // Estructuras condicionales en Javascript
 
-// IF
-if (condition) {
-    
-}
 
